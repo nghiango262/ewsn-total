@@ -1,0 +1,70 @@
+.main-nav {
+    height: 96px;
+    padding: 0 56px;
+    margin: 0 auto;
+    width: 100%;
+    //
+    .nav-list {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        list-style: none;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+
+        //
+        img {
+            height: 75px;
+            display: inline-block;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYWwP7tglRp5wwSPiDWmVCQ8pHCjFNWFu_YA6gmk2GzN4f6fG7qw&s") no-repeat;
+            &:hover {
+                background: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fsteamstore-a.akamaihd.net%2Fpublic%2Fshared%2Fimages%2Fresponsive%2Fheader_logo.png&imgrefurl=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F529180%2FDark_and_Light%2F&docid=t-g2dmMhpNNHbM&tbnid=wUaRCN9puGw2SM%3A&vet=10ahUKEwiphbLdrK3mAhUiyDgGHUexBTEQMwhmKBgwGA..i&w=744&h=171&bih=617&biw=1366&q=logo%20dark%20and%20light%20link&ved=0ahUKEwiphbLdrK3mAhUiyDgGHUexBTEQMwhmKBgwGA&iact=mrc&uact=8") no-repeat;
+            
+            }
+
+        }
+        //
+        li {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 265.6px;
+            font-family: "Greycliff CF Bold";
+            color: #fff;
+            font-size: 20px;
+            line-height: calc(21/18);
+            cursor: pointer;
+            height: 100%;
+            &:hover {
+                background-color: black;
+                
+            }
+            
+            //
+            a {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                color: black;
+                opacity: inherit;
+                &:hover {
+                    color: white;
+                }
+            }
+
+        }
+    }
+
+    
+    
+    
+}
+

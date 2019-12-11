@@ -1,5 +1,5 @@
 // Bootstrap scss
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 @import './variables';
 @import './base';
@@ -7,3 +7,7 @@
 @import './card';
 @import './links';
 @import './sidebar';
+
+@import './components/header';
+@import './components/content';
+@import './components/main1'

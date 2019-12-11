@@ -1,0 +1,30 @@
+
+div {
+    display: block;
+}
+.main-2 {
+    background: #fff;
+    color: #000;
+}
+
+.services .row {
+    margin-top: -32px;
+    background-color: #fff;
+}
+
+.services .row p {
+    float: left;
+    display: block;
+    margin-right: 3.125%;
+    width: 14.0625%;
+    font-size: 18px;
+    line-height: 21px;
+    border-left: 2px solid #C2C2C2;
+    padding: 0 0 0 18px;
+}
+
+.services .row p span {
+    display: inline-block;
+    margin-bottom: 24px;
+    font-family: "Greycliff CF Bold";
+}
