@@ -1,0 +1,16 @@
+.main-contact {
+    background-color: aquamarine;
+    //display: flex;
+    //justify-content: center;
+    .sec1 {
+        background-color: blueviolet;
+        .sec-1-1 {
+            padding: 20px 20px;
+            justify-content: center;
+        }
+    }
+
+    .sec2 {
+        background-color: brown;
+    }
+}

@@ -1,37 +1,38 @@
-.site-footer {
-  background-color: $white;
-  margin-top: 20px;
-  padding: 10px;
-  text-align: center;
+footer {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 48px;
+  font-size: 16px;
+  line-height: calc(19/16);
 
-  .footer-social-links {
-    text-align: center;
+  hr {
+    display: none;
+    width: 100%;
+    margin: 48px auto;
+    border: none;
+    height: 2px;
+    background-color: #fff;
+  }
 
-    ul.social-links-list {
-      li {
-        margin-right: 25px;
-        display: inline-block;
+  //
+  .ftr-item {
+    box-sizing: border-box;
 
-        a {
-          color: $dark-gray;
+    //
+    .services .expertise .careers {
+      flex: 0 0 17.1875%;
+      max-width: 17.1875%;
 
-          &.instagram:hover {
-            color: #e95950;
-          }
-          &.facebook:hover {
-            color: rgb(66, 103, 178);
-          }
-          &.twitter:hover {
-            color: rgb(56, 161, 243);
-          }
-          &.google:hover {
-            color: rgb(221, 75, 57);
-          }
-          &.linkedin:hover {
-            color: rgb(0, 119, 181);
-          }
-        }
+      //
+      header {
+        display: block;
       }
     }
   }
+
+  
 }

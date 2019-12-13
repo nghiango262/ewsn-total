@@ -1,0 +1,56 @@
+{
+    "home": {
+        "sentence_1": "Công ty TNHH EWSN Việt Nam được thành lập ngày 06 tháng 11 năm 2019 theo giấy chứng nhận đăng ký doanh nghiệp số 0316002116.",
+        "sentence_2": "EWSN chú trọng vào các lĩnh vực chế biến, thương mại và xuất nhập khẩu mặt hàng cà phê chất lượng cao, đáp ứng nhu cầu của khách hàng trong và ngoài nước. Bên cạnh đó, EWSN còn kinh doanh bán lẻ các mặt hàng nhập khẩu đáp ứng thị hiếu người tiêu dùng."
+    },
+    "about":{
+
+    },
+    "service": [
+        {
+            "id": 1,
+            "title": "Dịch vụ AVC",
+            "description": "Psychology meets technology. User experience is all about understanding human behavior — through research and analytics — and creating optimal usability, while achieving business objectives.",
+            "image": "https://dpplus.com/images/services-multi-platform.jpg"
+        },
+        {
+            "id": 2,
+            "title": "2 Multi-Platform Creation and Integration",
+            "description": "Psychology meets technology. User experience is all about understanding human behavior — through research and analytics — and creating optimal usability, while achieving business objectives.",
+            "image": "https://dpplus.com/images/services-lead-gen.jpg"
+        },
+        {
+            "id": 3,
+            "title": "3 Multi-Platform Creation and Integration",
+            "description": "Psychology meets technology. User experience is all about understanding human behavior — through research and analytics — and creating optimal usability, while achieving business objectives.",
+            "image": "https://dpplus.com/images/seo-sem.jpg"
+        },
+        {
+            "id": 4,
+            "title": "4 Multi-Platform Creation and Integration",
+            "description": "Psychology meets technology. User experience is all about understanding human behavior — through research and analytics — and creating optimal usability, while achieving business objectives.",
+            "image": "https://dpplus.com/images/services-multi-platform.jpg"
+        }
+    ],
+    "news": {
+        "news_1": {
+            "title": "",
+            "image": "",
+            "description": "",
+            "content": "html",
+            "date": "",
+            "from": ""
+        },
+        "news_2": {
+            "title": "",
+            "image": "",
+            "description": "",
+            "content": "tra ve trang chi tiet",
+            "date": "",
+            "from": ""
+        }
+    },
+    "contact": {
+        
+    }
+}
