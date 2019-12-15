@@ -1,0 +1,108 @@
+.form-contact {
+
+    h4 {
+        padding: 30px;
+        font-weight: bold;
+    }
+
+    .form-group {
+        margin: 10px;
+        padding: 10px 0;
+        
+        input, select, textarea {
+            border-color:rgb(236, 236, 236);
+            border-width: 2px;
+            border-radius: 0;
+            height: 56px;
+            background-color:rgb(236, 236, 236);
+            //transition: 0.4s border-color ease;
+            &:focus {
+                //transition: 0.4s border-color ease;
+                border-color: #000;
+                background-color: #fff;
+            }
+        }
+
+        
+    }
+    .button {
+        margin: 10px;
+        padding: 20px 0;
+        input {
+            background-color: #fff;
+            color: #000;
+            border-color: #000;
+            border-width: 2px;
+            padding: 10px 30px 10px 30px;
+            color: #000;
+            outline: none;
+            border-radius: 0;
+            float: right;
+            transition: 0.4s background-color ease, 0.4s color ease, 0.4s border-color ease;
+            &:hover {
+                transition: 0.4s background-color ease, 0.4s color ease, 0.4s border-color ease;
+                background-color: #000;
+                color: #fff;
+                border-color: #000;
+            }
+        }
+        
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700');
+section {
+  width: 100%;
+  padding: 4em 0;
+}
+
+@media screen and (min-width: 768px) {
+  section .container,
+  section .row {
+    padding: 0;
+  }
+}
+
+header.section-header {
+  text-align: center;
+  padding: 0 0 3em;
+}
+
+header.section-header h2 {
+  font-size: 2em;
+}
+
+section.contact form {
+  font-family: 'Roboto Mono';
+  color: #000;
+}
+
+section.contact form input,
+section.contact form textarea {
+  border-color: #000;
+  border-width: 2px;
+  border-radius: 0;
+  transition: 0.4s border-color ease;
+}
+
+section.contact form input:focus,
+section.contact form textarea:focus {
+  transition: 0.4s border-color ease;
+  border-color: #f33;
+}
+
+section.contact form textarea {
+  resize: none;
+}
+
+section.contact form button.btn {
+  
+}
+
+section.contact form button.btn:hover {
+  transition: 0.4s background-color ease, 0.4s color ease, 0.4s border-color ease;
+  background-color: #fff;
+  color: #000;
+  border-color: #f33;
+}
+

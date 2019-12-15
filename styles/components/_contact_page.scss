@@ -1,16 +1,124 @@
 .main-contact {
-    background-color: aquamarine;
-    //display: flex;
-    //justify-content: center;
-    .sec1 {
-        background-color: blueviolet;
-        .sec-1-1 {
-            padding: 20px 20px;
-            justify-content: center;
+    background-color: #F5F5F5;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    .contact_title{
+        padding: 20px;
+        font-weight: bold;
+    }
+    .content_1 {
+        background-color: #000;
+        padding: 40px;
+        color: white;
+
+        .head_title_1 {
+            padding: 20px;
+            
+        }
+        .head_1{
+            display: flex;
+            margin-bottom:5px;
+            padding: 0 20px;
+
+            .sec_1 {
+                width: 25%;
+                margin-bottom:5px;
+            }
         }
     }
 
-    .sec2 {
-        background-color: brown;
+    .contact_2 {
+        background-color: white;
+        padding: 40px 0 40px 0;
+
+        .head_title_2 {
+            color: #000;
+        }
+        
+        .head_2{
+            display: flex;
+            margin-bottom:5px;
+    
+            .sec_2 {
+                width: 50%;
+                background-color: #000;
+                padding: 20px;
+
+            }
+        }
+
+        .contact-form {
+            background-color: #fff;
+            width: 100%;
+            margin-top: 4%;
+            form {
+                padding: 5%;
+            }
+
+            .form-control {
+                border-radius: 0;
+            }
+
+            textarea {
+                height: 100px !important;
+                width: 100%;
+            }
+        }
+        
     }
+
+    .contact_3 {
+        display: block;
+        .main-1 {
+            background: #000;
+            color: #fff;
+        }
+
+        .bottom-spacer {
+            padding-bottom: 80px !important;
+        }
+
+        @media screen and (min-width: 1280px) {
+            .row {
+                padding: 40px 0;
+                max-width: 1280px;
+                margin-left: auto;
+                margin-right: auto;
+
+                
+            }
+        }
+
+        .locations {
+            .location {
+                float: left;
+                display: block;
+                margin-right: 3.125%;
+                width: 48.4375%;
+                
+                img {
+                    max-height: 80%;
+                    font-style: italic;
+                    vertical-align: middle;
+                }
+            }
+        }
+    
+
+        .overlay-above, .overlay-hero {
+            margin-top: -108px;
+            position: relative;
+            z-index: 1;
+
+        }
+
+        .main-2 {
+            background: #fff;
+            color: #000;
+        }
+
+    }
+    
+    
 }
