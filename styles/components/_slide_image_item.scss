@@ -1,16 +1,20 @@
 .slide {
+    border: 2px black dotted;
+    display: inline-block;
 
     .slide__bg {
         position: absolute;
-        top: 0;
-        //left: -50%;
-        width: 100%;
+        
+        width: 50%;
         height: 100%;
+        background-color: hotpink;
         background-size: cover;
         will-change: transform;
     }
-
-    
-
-    
+    .slide__content {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+    }
 }

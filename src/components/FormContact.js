@@ -5,7 +5,6 @@ import "../../styles/components/_form_contact.scss";
 export default class FormContact extends Component {
 
     render() {
-
         return (
             <div className="form-contact">
                 <h4>Or if you’re feeling shy, feel free to fill out the form below and we’ll get back to you quickly.</h4>
